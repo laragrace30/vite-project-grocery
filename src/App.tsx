@@ -29,7 +29,7 @@ function App() {
     } else {
       const newItem: Item = {
         id: new Date().getTime().toString(),
-        title: name.charAt(0).toUpperCase() + name.slice(1), // Capitalize the first letter
+        title: name.charAt(0).toUpperCase() + name.slice(1), 
         checked: false,
       };
       setList([...list, newItem]);
