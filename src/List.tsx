@@ -9,7 +9,6 @@ interface Item {
 interface ListProps {
   items: Item[];
   removeItem: (id: number) => void;
-  editItem: (id: number) => void;
   toggleChecked: (id: number) => void;
 }
 
